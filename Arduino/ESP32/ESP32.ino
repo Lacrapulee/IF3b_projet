@@ -3,6 +3,22 @@
 #include <Adafruit_BMP280.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <WiFi.h>
+#include <PubSubClient.h>
+#include <iostream>
+#include <string>
+#include <cstring> 
+
+// Déclaration des variables relative à la DB ; 
+
+const String Object_id = "6661de566a8872a50807db59"
+const char* ssid = "Gauthier";
+const char* password = "y3rfajkj";
+const char* mqtt_server = "mqtt.ci-ciad.utbm.fr";
+
+WiFiClient espclient;
+PubSubClient client(espclient);
+long lastMsg = 0;
 
 // Déclaration du capteur BMP280
 Adafruit_BMP280 bmp;
@@ -31,6 +47,7 @@ byte read_data() {
   }
   return data;
 }
+
 void start_test () {
 digitalWrite (DHpin, LOW);
 delay (30);
@@ -47,6 +64,8 @@ for (int i = 0; i < 4; i ++){
     digitalWrite (DHpin, HIGH);
 }
 }
+
+// Initialisation de l'écran led 
 Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT, &Wire, OLED_RESET);
 
 const uint8_t digits[10][5] = {
@@ -63,6 +82,7 @@ const uint8_t digits[10][5] = {
 };
 
 void setup() {
+
   // Initialisation de la communication série
   Serial.begin(115200);
   Wire.begin(SDA_PIN, SCL_PIN);
@@ -91,6 +111,54 @@ void setup() {
   display.display();
   delay(2000); // Pause pour permettre à l'écran de s'initialiser
   display.clearDisplay();
+
+  // Initialisation de 
+  setup_wifi();
+  client.setServer(mqtt_server, 1883);
+  client.setCallback(callback);
+}
+
+void setup_wifi() {
+  delay(10);
+  Serial.println();
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+  Serial.println("IP address: ");
+  Serial.println(WiFi.localIP());
+}
+
+void callback(char* topic, byte* message, unsigned int length) {
+  Serial.print("Message arrived on topic: ");
+  Serial.print(topic);
+  Serial.print(". Message: ");
+  String messageTemp;
+  for (int i = 0; i < length; i++) {
+    Serial.print((char)message[i]);
+    messageTemp += (char)message[i];
+  }
+  Serial.println();
+}
+
+void reconnect() {
+  while (!client.connected()) {
+    Serial.print("Attempting MQTT connection...");
+    if (client.connect("espclient")) {
+      Serial.println("connected");
+      client.subscribe("esp32/projet_qualitee_air");
+    } else {
+      Serial.print("failed, rc=");
+      Serial.print(client.state());
+      Serial.println(" try again in 5 seconds");
+      delay(5000);
+    }
+  }
 }
 
 void loop() {
@@ -152,6 +220,32 @@ void loop() {
   Serial.print(dat[3], DEC);
   Serial.println('C');
 
+
+  // Code relatif au mqtt 
+
+  //reconnection automatique 
+  if (!client.connected()) {
+    reconnect();
+  }
+
+  client.loop();
+  long now = millis();
+
+  std::String msg = Object_id + "-" + 
+  std::to_string(temperature) + "-" + 
+  std::to_string(dat[0]) + "." + 
+  std::to_string(dat[1]) + "-" + 
+  std::to_string(pressure) + "-" 
+   ;
+  
+  const int length = msg.length(); 
+  char* msg_char = new char[length + 1]; 
+  strcpy(msg_char, msg.c_str()); 
+
+  if (now - lastMsg > 6000) {
+    lastMsg = now;
+    client.publish("esp32/projet_qualitee_air", msg_char);
+  }
   // Pause avant la prochaine lecture
   delay(2000);
 }
