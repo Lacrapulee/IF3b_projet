@@ -1,0 +1,140 @@
+[
+    {
+        "id": "eb1389238c0e7990",
+        "type": "tab",
+        "label": "Flux 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "da4be93616795b2c",
+        "type": "mqtt in",
+        "z": "eb1389238c0e7990",
+        "name": "Char_brut",
+        "topic": "esp32/projet_qualitee_air",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "07a0d543df56230a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "3f1312ae74ace06f"
+            ]
+        ]
+    },
+    {
+        "id": "3f1312ae74ace06f",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "name": "functionSplitString",
+        "func": "// Fonction pour diviser la chaîne de caractères\nfunction splitString(input) {\n    return input.split('-').filter(element => element !== '');\n}\n\n// Obtenez le payload du message MQTT\nlet inputString = msg.payload;\n\n// Vérifiez que le payload est une chaîne de caractères\nif (typeof inputString === 'string') {\n    // Appelez la fonction pour diviser la chaîne\n    msg.payload = splitString(inputString);\n} else {\n    // Si ce n'est pas une chaîne, renvoyez une erreur\n    msg.payload = 'Invalid input';\n}\n\n// Renvoyez le message avec le nouveau payload\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "da4022ba545f8547",
+                "d0f505cbf934465c"
+            ]
+        ]
+    },
+    {
+        "id": "da4022ba545f8547",
+        "type": "debug",
+        "z": "eb1389238c0e7990",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d0f505cbf934465c",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "group": "89f674bbf742dac8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 550,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "07a0d543df56230a",
+        "type": "mqtt-broker",
+        "name": "UTBM",
+        "broker": "mqtt.ci-ciad.utbm.fr",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "89f674bbf742dac8",
+        "type": "ui_group",
+        "name": "LED APPLICATION",
+        "tab": "59516f801a169b34",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59516f801a169b34",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
