@@ -1,0 +1,3270 @@
+[
+    {
+        "id": "eb1389238c0e7990",
+        "type": "tab",
+        "label": "Flux 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dd6e20d45338a4ce",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "name": "Bouton",
+        "style": {
+            "label": true,
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "color": "#6f2fa0",
+            "fill-opacity": "0.25"
+        },
+        "nodes": [
+            "db3c18991fe6d290",
+            "b85163cb2932fa63",
+            "b1935e1ca9a244a2"
+        ],
+        "x": 8,
+        "y": 933,
+        "w": 684,
+        "h": 574
+    },
+    {
+        "id": "03fce16718e42edb",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "name": "Back",
+        "style": {
+            "label": true,
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "da4be93616795b2c",
+            "3f1312ae74ace06f",
+            "c9595c7ba0f44026",
+            "6a98aaf268d016f9"
+        ],
+        "x": 14,
+        "y": 759,
+        "w": 592,
+        "h": 142
+    },
+    {
+        "id": "3d99074c2153a53c",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "name": "Home",
+        "style": {
+            "label": true,
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.25",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "3c65504fc35c50b4",
+            "8052496f194b4e78",
+            "5191d3e6f1d56292",
+            "5a206ba9ddc54d91"
+        ],
+        "x": 8,
+        "y": 13,
+        "w": 2218,
+        "h": 734
+    },
+    {
+        "id": "63f346651d83f658",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "name": "Choix abscisses",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#92d04f",
+            "fill-opacity": "0.25"
+        },
+        "nodes": [
+            "d904151758a53c88",
+            "c52ad549bffacd24",
+            "835f08430b5c0620",
+            "6b5c72bbdc29f96d",
+            "e715e93173ba7043",
+            "9d0579ee4fd0281c",
+            "1780bd2e981ed998"
+        ],
+        "x": 718,
+        "y": 773,
+        "w": 1514,
+        "h": 734
+    },
+    {
+        "id": "db3c18991fe6d290",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "dd6e20d45338a4ce",
+        "name": "",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": false
+        },
+        "nodes": [
+            "de52e681c124b7bd",
+            "9645b95fa7b472e6"
+        ],
+        "x": 34,
+        "y": 959,
+        "w": 472,
+        "h": 82
+    },
+    {
+        "id": "b85163cb2932fa63",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "dd6e20d45338a4ce",
+        "name": "",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": false
+        },
+        "nodes": [
+            "c3df672ea530c5a6",
+            "2c80efb004d79748",
+            "a841cebdf1fa3680"
+        ],
+        "x": 34,
+        "y": 1399,
+        "w": 632,
+        "h": 82
+    },
+    {
+        "id": "b1935e1ca9a244a2",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "dd6e20d45338a4ce",
+        "name": "",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": false
+        },
+        "nodes": [
+            "b4c218f1001dcb72",
+            "df984bde23afbc10",
+            "b01a3b84e3877d94",
+            "71211ac46bda79bd",
+            "6ffbcb63a7dfd0e0",
+            "bda72813597dce1a",
+            "16967475972e1789"
+        ],
+        "x": 34,
+        "y": 1079,
+        "w": 372,
+        "h": 282
+    },
+    {
+        "id": "d904151758a53c88",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "eefb675d90f275ef",
+            "326efaf83806ed41",
+            "640ce6bf95a065bf",
+            "08ce78870c435258",
+            "8fc879227d6e0237",
+            "f86795bdce2ac782"
+        ],
+        "x": 744,
+        "y": 1299,
+        "w": 1422,
+        "h": 82
+    },
+    {
+        "id": "c52ad549bffacd24",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "124e7f3172a32874",
+            "4eb182eb8df41666",
+            "3045fc94dbfa23d0",
+            "5b56aff051c9ef82",
+            "5ac6c0d5f931a351",
+            "b11e0934462a8b9b"
+        ],
+        "x": 744,
+        "y": 799,
+        "w": 1462,
+        "h": 82
+    },
+    {
+        "id": "835f08430b5c0620",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "7cbf7cd2d5dc546f",
+            "fdf68841d3eaa36a",
+            "38d58dd0349e5863",
+            "a074eacaf0d524c0",
+            "4130c82ad96f1b70",
+            "51aa77d4d0914aa6"
+        ],
+        "x": 744,
+        "y": 899,
+        "w": 1442,
+        "h": 82
+    },
+    {
+        "id": "6b5c72bbdc29f96d",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "88e506f03ecdbadf",
+            "67827cbef51f321a",
+            "938ff3d4ab4d39f3",
+            "25436ea22f6f5d07",
+            "43ecf627d21ad0af",
+            "7448d00e8eafca69"
+        ],
+        "x": 744,
+        "y": 999,
+        "w": 1442,
+        "h": 82
+    },
+    {
+        "id": "e715e93173ba7043",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "f1e5a1d10a83415d",
+            "d725ef6b0d907ecc",
+            "2182fab88147c054",
+            "3797cfaaada675ce",
+            "15e14f2ebd1eab2d",
+            "f7b18ab66558c999"
+        ],
+        "x": 744,
+        "y": 1199,
+        "w": 1422,
+        "h": 82
+    },
+    {
+        "id": "9d0579ee4fd0281c",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "bab980ec55c2fb3a",
+            "8df808849f8b7d19",
+            "277997590db0de86",
+            "ebaf3231fe5ede47",
+            "15ae396bdc9dcf76",
+            "4990db9dd604110d"
+        ],
+        "x": 744,
+        "y": 1099,
+        "w": 1442,
+        "h": 82
+    },
+    {
+        "id": "3c65504fc35c50b4",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "3d99074c2153a53c",
+        "name": "Affichage des graphes",
+        "style": {
+            "label": false,
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "883314b9e191fc8a",
+            "a124bc01eea492e3",
+            "727fd83888261e65",
+            "f35ee9c3c656a250",
+            "57a13cb9c4ea2627",
+            "ab03ce388b1cf3d4",
+            "f71964afea06c6cf",
+            "928cd0e2844eeca0",
+            "05cca28abc23a654",
+            "84d14830b5d9e0cc",
+            "9704b881e55a8428",
+            "509425082e5f2212",
+            "1fd63f8e572a0eae",
+            "76023d265bb26d36",
+            "201c4cda4ed489ec",
+            "20bfa622017126cf",
+            "310fda2ea5f9b38e",
+            "2f5874a3237a62cd",
+            "5761b704f3b47d02",
+            "846ec96064f42d36",
+            "c7c88a924359c4c5",
+            "9786113a8001a6e6",
+            "8ca45b6c979b4afb",
+            "3993f9b9dde662aa",
+            "cf302b16039daccd"
+        ],
+        "x": 474,
+        "y": 339,
+        "w": 1192,
+        "h": 382
+    },
+    {
+        "id": "8052496f194b4e78",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "3d99074c2153a53c",
+        "name": "Affichage des gauges",
+        "style": {
+            "label": false,
+            "fill": "#ffbfbf",
+            "stroke": "#ff0000"
+        },
+        "nodes": [
+            "c40579393f949248",
+            "8533b2a063fadfa1",
+            "10addd03fc708fe5",
+            "75595b09a6ee119c",
+            "d2ecbe6a24897145",
+            "35a0fae41a19ed95",
+            "98fe9baedee954e6",
+            "4937f9dd480b66f4",
+            "0bfb1b800d38ce37",
+            "fa6401407242fd2b"
+        ],
+        "x": 1094,
+        "y": 39,
+        "w": 1092,
+        "h": 282
+    },
+    {
+        "id": "5191d3e6f1d56292",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "3d99074c2153a53c",
+        "name": "Affichage texte",
+        "style": {
+            "label": false,
+            "stroke": "#ff0000",
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "function_sql",
+            "function_process_results",
+            "ui_text_temperature",
+            "ui_text_pression",
+            "ui_text_altitude",
+            "ui_text_humidite",
+            "ui_text_co2",
+            "ui_text_tvoc",
+            "9e74ec65ada10868",
+            "inject_node"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1052,
+        "h": 282
+    },
+    {
+        "id": "1780bd2e981ed998",
+        "type": "group",
+        "z": "eb1389238c0e7990",
+        "g": "63f346651d83f658",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": false
+        },
+        "nodes": [
+            "95a8551de4a19f96",
+            "04b6065943d51368",
+            "a2d38ffb45c66909",
+            "8b502a916da59420",
+            "f6f8a4859fea7967"
+        ],
+        "x": 754,
+        "y": 1399,
+        "w": 1292,
+        "h": 82
+    },
+    {
+        "id": "da4be93616795b2c",
+        "type": "mqtt in",
+        "z": "eb1389238c0e7990",
+        "g": "03fce16718e42edb",
+        "name": "ESP32",
+        "topic": "esp32/projet_qualitee_air/Z",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "07a0d543df56230a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 800,
+        "wires": [
+            [
+                "3f1312ae74ace06f"
+            ]
+        ]
+    },
+    {
+        "id": "3f1312ae74ace06f",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "03fce16718e42edb",
+        "name": "functionSeparationDonnees",
+        "func": "function splitString(input) {\n    const identifiers = ['temperature', 'pression', 'altitude', 'humidite', 'CO2', 'TVOC'];\n    const splitValues = input.split('-').filter(element => element !== '');\n    const result = {};\n    identifiers.forEach((identifier, index) => {\n        result[identifier] = splitValues[index];\n    });\nreturn result;\n}\n\nlet inputString = msg.payload;\n\nif (typeof inputString === 'string') {\n    msg.payload = splitString(inputString);\n} else {\n    msg.payload = 'Invalid input';\n}\n\nconst temperature = parseFloat(msg.payload['temperature']);\nconst pression = parseFloat(msg.payload['pression']);\nconst altitude = parseFloat(msg.payload['altitude']);\nconst humidite = parseFloat(msg.payload['humidite']);\nconst co2 = parseFloat(msg.payload['CO2']);\nconst tvoc = parseFloat(msg.payload['TVOC']);\n\nmsg.topic ='INSERT INTO mesures (temperature,pression,altitude,humidite,co2,tvoc) VALUES (' + temperature + ',' + pression + ',' + altitude + ',' + humidite + ',' + co2 + ',' + tvoc + ');';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 800,
+        "wires": [
+            [
+                "c9595c7ba0f44026"
+            ]
+        ]
+    },
+    {
+        "id": "c9595c7ba0f44026",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "03fce16718e42edb",
+        "server": "8f20765007329c42",
+        "name": "mesures_air",
+        "x": 490,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de52e681c124b7bd",
+        "type": "mqtt out",
+        "z": "eb1389238c0e7990",
+        "g": "db3c18991fe6d290",
+        "name": "Ventilateur",
+        "topic": "esp32/projet_qualitee_air/Z/ventilateur",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "07a0d543df56230a",
+        "x": 410,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "9645b95fa7b472e6",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "db3c18991fe6d290",
+        "name": "",
+        "group": "54a72964173d40f8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Allumer/Eteindre le ventilateur",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1000,
+        "wires": [
+            [
+                "de52e681c124b7bd"
+            ]
+        ]
+    },
+    {
+        "id": "c3df672ea530c5a6",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b85163cb2932fa63",
+        "name": "",
+        "group": "54a72964173d40f8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Vider la base de données",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "delete",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1440,
+        "wires": [
+            [
+                "2c80efb004d79748"
+            ]
+        ]
+    },
+    {
+        "id": "2c80efb004d79748",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "b85163cb2932fa63",
+        "name": "fonctionViderLaTable",
+        "func": "var tableName = \"mesures\";\n\nmsg.topic = \"DELETE FROM `\" + tableName + \"`;\";\nmsg.payload = {};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1440,
+        "wires": [
+            [
+                "a841cebdf1fa3680"
+            ]
+        ]
+    },
+    {
+        "id": "a841cebdf1fa3680",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "b85163cb2932fa63",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 580,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4c218f1001dcb72",
+        "type": "mqtt out",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "Écran",
+        "topic": "esp32/projet_qualitee_air/Z/ecran",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "07a0d543df56230a",
+        "x": 330,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "df984bde23afbc10",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "Pression",
+        "group": "7b2127731457708e",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Pression",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1160,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "b01a3b84e3877d94",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "Température",
+        "group": "7b2127731457708e",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Température",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1120,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "71211ac46bda79bd",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "Altitude",
+        "group": "7b2127731457708e",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Altitude",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1200,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "6ffbcb63a7dfd0e0",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "Humidité",
+        "group": "7b2127731457708e",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Humidité",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1240,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "bda72813597dce1a",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "CO2",
+        "group": "7b2127731457708e",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "CO2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1280,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "16967475972e1789",
+        "type": "ui_button",
+        "z": "eb1389238c0e7990",
+        "g": "b1935e1ca9a244a2",
+        "name": "TVOC",
+        "group": "7b2127731457708e",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "TVOC",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1320,
+        "wires": [
+            [
+                "b4c218f1001dcb72"
+            ]
+        ]
+    },
+    {
+        "id": "6a98aaf268d016f9",
+        "type": "remote-access",
+        "z": "eb1389238c0e7990",
+        "g": "03fce16718e42edb",
+        "confignode": "d701069e850f8f69",
+        "name": "",
+        "verbose": 0,
+        "x": 500,
+        "y": 860,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "function_sql",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "name": "focntionPrepaSql",
+        "func": "msg.topic = 'SELECT temperature, pression, altitude, humidite, co2, tvoc FROM mesures ORDER BY id DESC LIMIT 1;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "9e74ec65ada10868"
+            ]
+        ]
+    },
+    {
+        "id": "function_process_results",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "name": "fonctionGestionResultats",
+        "func": "if (msg.payload.length > 0) {\n    var data = msg.payload[0];\n    msg.payload = {\n        temperature: data.temperature,\n        pression: data.pression,\n        altitude: data.altitude,\n        humidite: data.humidite,\n        co2: data.co2,\n        tvoc: data.tvoc\n    };\n} else {\n    msg.payload = 'No data found';\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 180,
+        "wires": [
+            [
+                "ui_text_temperature",
+                "ui_text_pression",
+                "ui_text_altitude",
+                "ui_text_humidite",
+                "ui_text_co2",
+                "ui_text_tvoc"
+            ]
+        ]
+    },
+    {
+        "id": "ui_text_temperature",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "temperature",
+        "label": "Température :",
+        "format": "{{msg.payload.temperature}} °C",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 990,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ui_text_pression",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "pression",
+        "label": "Pression :",
+        "format": "{{msg.payload.pression}} hPa",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 980,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ui_text_altitude",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "altitude",
+        "label": "Altitude :",
+        "format": "{{msg.payload.altitude}} m",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 980,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ui_text_humidite",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "humidite",
+        "label": "Humidité :",
+        "format": "{{msg.payload.humidite}} %",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 980,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ui_text_co2",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "co2",
+        "label": "CO2 :",
+        "format": "{{msg.payload.co2}} ppm",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ui_text_tvoc",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "group": "f1b6c915.8fbc78",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "tvoc",
+        "label": "TVOC :",
+        "format": "{{msg.payload.tvoc}} ppb",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9e74ec65ada10868",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "function_process_results"
+            ]
+        ]
+    },
+    {
+        "id": "inject_node",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "5191d3e6f1d56292",
+        "name": "Get Latest Data",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "function_sql"
+            ]
+        ]
+    },
+    {
+        "id": "c40579393f949248",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge temperature",
+        "group": "8faf5a503beb89fd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Jauge Température",
+        "label": "°C",
+        "format": "{{msg.payload.temperature}}",
+        "min": "-100",
+        "max": "60",
+        "colors": [
+            "#0432ff",
+            "#0ae600",
+            "#ff2600"
+        ],
+        "seg1": "15",
+        "seg2": "25",
+        "diff": false,
+        "className": "",
+        "x": 2070,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8533b2a063fadfa1",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge pression",
+        "group": "123ba330da709477",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Jauge Pression",
+        "label": "hPA",
+        "format": "{{msg.payload.pression}}",
+        "min": "335",
+        "max": "1085",
+        "colors": [
+            "#0432ff",
+            "#00f900",
+            "#ca3838"
+        ],
+        "seg1": "980",
+        "seg2": "1020",
+        "diff": false,
+        "className": "",
+        "x": 2060,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "10addd03fc708fe5",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge altitude",
+        "group": "e585c78da5ce33e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Jauge Altitude",
+        "label": "m",
+        "format": "{{msg.payload.altitude}}",
+        "min": 0,
+        "max": "8850",
+        "colors": [
+            "#0432ff",
+            "#00f900",
+            "#feffff"
+        ],
+        "seg1": "1000",
+        "seg2": "3000",
+        "diff": false,
+        "className": "",
+        "x": 2060,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "75595b09a6ee119c",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge humidite",
+        "group": "255cc99aea28b759",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Jauge Humidite",
+        "label": "%",
+        "format": "{{msg.payload.humidite}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#fefb00",
+            "#00f900",
+            "#0432ff"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 2060,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d2ecbe6a24897145",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge co2",
+        "group": "6a4d250c64e06d3a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Jauge CO2",
+        "label": "ppm",
+        "format": "{{msg.payload.co2}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00fcff",
+            "#00f900",
+            "#ca3838"
+        ],
+        "seg1": "400",
+        "seg2": "700",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "35a0fae41a19ed95",
+        "type": "ui_gauge",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "gauge tvoc",
+        "group": "f824ab3390190580",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Jauge TVOC",
+        "label": "ppb",
+        "format": "{{msg.payload.tvoc}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "100",
+        "seg2": "500",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "98fe9baedee954e6",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "fonctionPrepaSql",
+        "func": "msg.topic = 'SELECT temperature, pression, altitude, humidite, co2, tvoc FROM mesures ORDER BY id DESC LIMIT 1;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 180,
+        "wires": [
+            [
+                "0bfb1b800d38ce37"
+            ]
+        ]
+    },
+    {
+        "id": "4937f9dd480b66f4",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "fonctionGestionResultats",
+        "func": "if (msg.payload.length > 0) {\n    var data = msg.payload[0];\n    msg.payload = {\n        temperature: data.temperature,\n        pression: data.pression,\n        altitude: data.altitude,\n        humidite: data.humidite,\n        co2: data.co2,\n        tvoc: data.tvoc\n    };\n} else {\n    msg.payload = 'No data found';\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 180,
+        "wires": [
+            [
+                "c40579393f949248",
+                "8533b2a063fadfa1",
+                "10addd03fc708fe5",
+                "d2ecbe6a24897145",
+                "35a0fae41a19ed95",
+                "5a206ba9ddc54d91",
+                "75595b09a6ee119c"
+            ]
+        ]
+    },
+    {
+        "id": "0bfb1b800d38ce37",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1600,
+        "y": 180,
+        "wires": [
+            [
+                "4937f9dd480b66f4"
+            ]
+        ]
+    },
+    {
+        "id": "fa6401407242fd2b",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "8052496f194b4e78",
+        "name": "Get Latest Data",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1230,
+        "y": 180,
+        "wires": [
+            [
+                "98fe9baedee954e6"
+            ]
+        ]
+    },
+    {
+        "id": "eefb675d90f275ef",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "name": "fonctionChoixDonneesTvoc",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 1340,
+        "wires": [
+            [
+                "f86795bdce2ac782"
+            ]
+        ]
+    },
+    {
+        "id": "326efaf83806ed41",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "name": "fonctionValeursGrapheTvoc.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('tvoc')) {\n            temp.push(msg.payload[i].tvoc);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['tvoc'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 1340,
+        "wires": [
+            [
+                "640ce6bf95a065bf"
+            ]
+        ]
+    },
+    {
+        "id": "640ce6bf95a065bf",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "name": "line chart tvoc",
+        "group": "f8c28c7583a15ba1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique TVOC",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff40ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#ff40ff",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2060,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08ce78870c435258",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 1340,
+        "wires": [
+            [
+                "8fc879227d6e0237"
+            ]
+        ]
+    },
+    {
+        "id": "8fc879227d6e0237",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "name": "choix des données tvoc",
+        "label": "",
+        "tooltip": "",
+        "group": "f8c28c7583a15ba1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1050,
+        "y": 1340,
+        "wires": [
+            [
+                "eefb675d90f275ef"
+            ]
+        ]
+    },
+    {
+        "id": "f86795bdce2ac782",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "d904151758a53c88",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 1340,
+        "wires": [
+            [
+                "326efaf83806ed41"
+            ]
+        ]
+    },
+    {
+        "id": "124e7f3172a32874",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "name": "line chart temperature",
+        "group": "b371089d272effa6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique Température",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff2600",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2080,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7cbf7cd2d5dc546f",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "name": "line chart pression",
+        "group": "f0e664e12a23b3e4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique Pression",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff9200",
+            "#ff9200",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2070,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88e506f03ecdbadf",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "name": "line chart altitude",
+        "group": "53df3c8355c85317",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique Altitude",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#fefb00",
+            "#aec7e8",
+            "#fefb00",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2070,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bab980ec55c2fb3a",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "name": "line chart humidite",
+        "group": "070852b39e2c1045",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique Humidité",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#00f900",
+            "#aec7e8",
+            "#ff7f0e",
+            "#00f900",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2070,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1e5a1d10a83415d",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "name": "line chart co2",
+        "group": "345f7d50cdd6deec",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique CO2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0432ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#0432ff",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2060,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d725ef6b0d907ecc",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "name": "functionSplitStringCo2",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 1240,
+        "wires": [
+            [
+                "f7b18ab66558c999"
+            ]
+        ]
+    },
+    {
+        "id": "2182fab88147c054",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "name": "fonctionValeursGrapheCo2.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('co2')) {\n            temp.push(msg.payload[i].co2);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['co2'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 1240,
+        "wires": [
+            [
+                "f1e5a1d10a83415d"
+            ]
+        ]
+    },
+    {
+        "id": "3797cfaaada675ce",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 1240,
+        "wires": [
+            [
+                "15e14f2ebd1eab2d"
+            ]
+        ]
+    },
+    {
+        "id": "15e14f2ebd1eab2d",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "name": "choix des données co2",
+        "label": "",
+        "tooltip": "",
+        "group": "345f7d50cdd6deec",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1050,
+        "y": 1240,
+        "wires": [
+            [
+                "d725ef6b0d907ecc"
+            ]
+        ]
+    },
+    {
+        "id": "f7b18ab66558c999",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "e715e93173ba7043",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 1240,
+        "wires": [
+            [
+                "2182fab88147c054"
+            ]
+        ]
+    },
+    {
+        "id": "8df808849f8b7d19",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "name": "fonctionChoixDonneesHumidite",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 1140,
+        "wires": [
+            [
+                "4990db9dd604110d"
+            ]
+        ]
+    },
+    {
+        "id": "277997590db0de86",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "name": "fonctionValeursGrapheHumidite.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('humidite')) {\n            temp.push(msg.payload[i].humidite);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['humidite'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 1140,
+        "wires": [
+            [
+                "bab980ec55c2fb3a"
+            ]
+        ]
+    },
+    {
+        "id": "ebaf3231fe5ede47",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 1140,
+        "wires": [
+            [
+                "15ae396bdc9dcf76"
+            ]
+        ]
+    },
+    {
+        "id": "15ae396bdc9dcf76",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "name": "choix des données humidite",
+        "label": "",
+        "tooltip": "",
+        "group": "070852b39e2c1045",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1060,
+        "y": 1140,
+        "wires": [
+            [
+                "8df808849f8b7d19"
+            ]
+        ]
+    },
+    {
+        "id": "4990db9dd604110d",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "9d0579ee4fd0281c",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 1140,
+        "wires": [
+            [
+                "277997590db0de86"
+            ]
+        ]
+    },
+    {
+        "id": "67827cbef51f321a",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "name": "fonctionChoixDonneesAltitude",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 1040,
+        "wires": [
+            [
+                "7448d00e8eafca69"
+            ]
+        ]
+    },
+    {
+        "id": "938ff3d4ab4d39f3",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "name": "fonctionValeursGrapheAltitude.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('altitude')) {\n            temp.push(msg.payload[i].altitude);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['altitude'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 1040,
+        "wires": [
+            [
+                "88e506f03ecdbadf"
+            ]
+        ]
+    },
+    {
+        "id": "25436ea22f6f5d07",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 1040,
+        "wires": [
+            [
+                "43ecf627d21ad0af"
+            ]
+        ]
+    },
+    {
+        "id": "43ecf627d21ad0af",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "name": "choix des données altitude",
+        "label": "",
+        "tooltip": "",
+        "group": "53df3c8355c85317",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1060,
+        "y": 1040,
+        "wires": [
+            [
+                "67827cbef51f321a"
+            ]
+        ]
+    },
+    {
+        "id": "7448d00e8eafca69",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "6b5c72bbdc29f96d",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 1040,
+        "wires": [
+            [
+                "938ff3d4ab4d39f3"
+            ]
+        ]
+    },
+    {
+        "id": "fdf68841d3eaa36a",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "name": "fonctionChoixDonneesPression",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 940,
+        "wires": [
+            [
+                "51aa77d4d0914aa6"
+            ]
+        ]
+    },
+    {
+        "id": "38d58dd0349e5863",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "name": "fonctionValeursGraphePression.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('pression')) {\n            temp.push(msg.payload[i].pression);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['pression'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 940,
+        "wires": [
+            [
+                "7cbf7cd2d5dc546f"
+            ]
+        ]
+    },
+    {
+        "id": "a074eacaf0d524c0",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 940,
+        "wires": [
+            [
+                "4130c82ad96f1b70"
+            ]
+        ]
+    },
+    {
+        "id": "4130c82ad96f1b70",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "name": "choix des données pression",
+        "label": "",
+        "tooltip": "",
+        "group": "f0e664e12a23b3e4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1060,
+        "y": 940,
+        "wires": [
+            [
+                "fdf68841d3eaa36a"
+            ]
+        ]
+    },
+    {
+        "id": "51aa77d4d0914aa6",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "835f08430b5c0620",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 940,
+        "wires": [
+            [
+                "38d58dd0349e5863"
+            ]
+        ]
+    },
+    {
+        "id": "4eb182eb8df41666",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "name": "fonctionChoixDonneesTemperature",
+        "func": "if (msg.payload == 0) {\n    msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 10080;';\n}\nelse if (msg.payload == 1) {\n    msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 1440;';\n}\nelse if (msg.payload == 2) {\n    msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 600;';\n}\nelse if (msg.payload == 3) {\n    msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nelse {\n    msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\n}\nmsg.payload = {};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 840,
+        "wires": [
+            [
+                "b11e0934462a8b9b"
+            ]
+        ]
+    },
+    {
+        "id": "3045fc94dbfa23d0",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "name": "fonctionValeursGrapheTemperature.2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('temperature')) {\n            temp.push(msg.payload[i].temperature);\n        }\n    }\n}\n\nmsg.payload = temp;\nvar m = {};\nif (temp.length == 60){\n    m.labels = [\"60 \", \"50 \", \"40 \", \"30 \", \"20 \", \"10 \", \"min\"];    \n} \nelse if (temp.length == 600) {\n    m.labels = [\"10 \", \"8 \", \"6 \", \"4 \", \"2 \", \"h\"];\n} \nelse if (temp.length == 1440) {\n    m.labels = [\"24 \", \"20\", \"16 \", \"12 \", \"8 \", \"4\", \"h\"];\n}\nelse if (temp.length == 10080) {\n    m.labels = [\"7 \", \"6\", \"5 \", \"4 \", \"3 \", \"2\", \"1\", \"j\"];\n}\nm.series = ['temperature'];\nm.data = [\n    temp\n];\n\nreturn { payload: [m] };",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 840,
+        "wires": [
+            [
+                "124e7f3172a32874"
+            ]
+        ]
+    },
+    {
+        "id": "5b56aff051c9ef82",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 850,
+        "y": 840,
+        "wires": [
+            [
+                "5ac6c0d5f931a351"
+            ]
+        ]
+    },
+    {
+        "id": "5ac6c0d5f931a351",
+        "type": "ui_slider",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "name": "choix des données temperature",
+        "label": "",
+        "tooltip": "",
+        "group": "b371089d272effa6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "payload",
+        "topicType": "msg",
+        "min": 0,
+        "max": "3",
+        "step": 1,
+        "className": "",
+        "x": 1070,
+        "y": 840,
+        "wires": [
+            [
+                "4eb182eb8df41666"
+            ]
+        ]
+    },
+    {
+        "id": "b11e0934462a8b9b",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "c52ad549bffacd24",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1580,
+        "y": 840,
+        "wires": [
+            [
+                "3045fc94dbfa23d0"
+            ]
+        ]
+    },
+    {
+        "id": "883314b9e191fc8a",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariableTemperature",
+        "func": "msg.topic = 'SELECT temperature FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 380,
+        "wires": [
+            [
+                "57a13cb9c4ea2627"
+            ]
+        ]
+    },
+    {
+        "id": "a124bc01eea492e3",
+        "type": "inject",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "topic",
+        "payloadType": "msg",
+        "x": 580,
+        "y": 520,
+        "wires": [
+            [
+                "883314b9e191fc8a",
+                "ab03ce388b1cf3d4",
+                "84d14830b5d9e0cc",
+                "76023d265bb26d36",
+                "2f5874a3237a62cd",
+                "9786113a8001a6e6"
+            ]
+        ]
+    },
+    {
+        "id": "727fd83888261e65",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGrapheTemperature",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('temperature')) {\n            temp.push(msg.payload[i].temperature);\n        }\n    }\n}\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['temperature'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 380,
+        "wires": [
+            [
+                "f35ee9c3c656a250"
+            ]
+        ]
+    },
+    {
+        "id": "f35ee9c3c656a250",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart temperature",
+        "group": "8faf5a503beb89fd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique température",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff2600",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1540,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "57a13cb9c4ea2627",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 380,
+        "wires": [
+            [
+                "727fd83888261e65"
+            ]
+        ]
+    },
+    {
+        "id": "ab03ce388b1cf3d4",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariablePression",
+        "func": "msg.topic = 'SELECT pression FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 440,
+        "wires": [
+            [
+                "05cca28abc23a654"
+            ]
+        ]
+    },
+    {
+        "id": "f71964afea06c6cf",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGraphePression",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('pression')) {\n            temp.push(msg.payload[i].pression);\n        }\n    }\n}\n\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['pression'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 440,
+        "wires": [
+            [
+                "928cd0e2844eeca0"
+            ]
+        ]
+    },
+    {
+        "id": "928cd0e2844eeca0",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart pression",
+        "group": "123ba330da709477",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique pression",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff9200",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1530,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "05cca28abc23a654",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 440,
+        "wires": [
+            [
+                "f71964afea06c6cf"
+            ]
+        ]
+    },
+    {
+        "id": "84d14830b5d9e0cc",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariableAltitude",
+        "func": "msg.topic = 'SELECT altitude FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "1fd63f8e572a0eae"
+            ]
+        ]
+    },
+    {
+        "id": "9704b881e55a8428",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGrapheAltitude",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('altitude')) {\n            temp.push(msg.payload[i].altitude);\n        }\n    }\n}\n\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['altitude'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 500,
+        "wires": [
+            [
+                "509425082e5f2212"
+            ]
+        ]
+    },
+    {
+        "id": "509425082e5f2212",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart altitude",
+        "group": "e585c78da5ce33e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique altitude",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#fefb00",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1530,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fd63f8e572a0eae",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 500,
+        "wires": [
+            [
+                "9704b881e55a8428"
+            ]
+        ]
+    },
+    {
+        "id": "76023d265bb26d36",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariableHumidite",
+        "func": "msg.topic = 'SELECT humidite FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 560,
+        "wires": [
+            [
+                "310fda2ea5f9b38e"
+            ]
+        ]
+    },
+    {
+        "id": "201c4cda4ed489ec",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGrapheHumidite",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('humidite')) {\n            temp.push(msg.payload[i].humidite);\n        }\n    }\n}\n\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['humidite'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 560,
+        "wires": [
+            [
+                "20bfa622017126cf"
+            ]
+        ]
+    },
+    {
+        "id": "20bfa622017126cf",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart humidite",
+        "group": "255cc99aea28b759",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique humidite",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#00f900",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1530,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "310fda2ea5f9b38e",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 560,
+        "wires": [
+            [
+                "201c4cda4ed489ec"
+            ]
+        ]
+    },
+    {
+        "id": "2f5874a3237a62cd",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariableCo2",
+        "func": "msg.topic = 'SELECT co2 FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 620,
+        "wires": [
+            [
+                "c7c88a924359c4c5"
+            ]
+        ]
+    },
+    {
+        "id": "5761b704f3b47d02",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGrapheCo2",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('co2')) {\n            temp.push(msg.payload[i].co2);\n        }\n    }\n}\n\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['co2'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 620,
+        "wires": [
+            [
+                "846ec96064f42d36"
+            ]
+        ]
+    },
+    {
+        "id": "846ec96064f42d36",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart co2",
+        "group": "6a4d250c64e06d3a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique CO2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0432ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1520,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7c88a924359c4c5",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 620,
+        "wires": [
+            [
+                "5761b704f3b47d02"
+            ]
+        ]
+    },
+    {
+        "id": "9786113a8001a6e6",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "choixVariableTvoc",
+        "func": "msg.topic = 'SELECT tvoc FROM mesures ORDER BY date_mesure DESC LIMIT 60;';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 680,
+        "wires": [
+            [
+                "cf302b16039daccd"
+            ]
+        ]
+    },
+    {
+        "id": "8ca45b6c979b4afb",
+        "type": "function",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "fonctionValueursGrapheTvoc",
+        "func": "var temp = [];\nif (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        if (msg.payload[i] && msg.payload[i].hasOwnProperty('tvoc')) {\n            temp.push(msg.payload[i].tvoc);\n        }\n    }\n}\n\n\nmsg.payload = temp; \nvar m = {};\nm.labels = [\"60\", \"50\", \"40\", \"30\", \"20\", \"10\", \"0\"];\nm.series = ['tvoc'];\nm.data = [\n    temp\n];\nreturn { payload: [m] };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 680,
+        "wires": [
+            [
+                "3993f9b9dde662aa"
+            ]
+        ]
+    },
+    {
+        "id": "3993f9b9dde662aa",
+        "type": "ui_chart",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "name": "line chart tvoc",
+        "group": "f824ab3390190580",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Graphique TVOC",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff40ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1520,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf302b16039daccd",
+        "type": "Stackhero-MySQL",
+        "z": "eb1389238c0e7990",
+        "g": "3c65504fc35c50b4",
+        "server": "8f20765007329c42",
+        "name": "mesures",
+        "x": 1040,
+        "y": 680,
+        "wires": [
+            [
+                "8ca45b6c979b4afb"
+            ]
+        ]
+    },
+    {
+        "id": "95a8551de4a19f96",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "1780bd2e981ed998",
+        "group": "7de298c52610e8a5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "text legende",
+        "label": "Correspondances minutes",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "04b6065943d51368",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "1780bd2e981ed998",
+        "group": "7de298c52610e8a5",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "texte minutes",
+        "label": "• 3 -> 60 minutes",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1940,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "a2d38ffb45c66909",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "1780bd2e981ed998",
+        "group": "7de298c52610e8a5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "text jour",
+        "label": "• 1 -> une journée",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1400,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "8b502a916da59420",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "1780bd2e981ed998",
+        "group": "7de298c52610e8a5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "texte heures",
+        "label": "• 2 -> 10 heures",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1670,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "f6f8a4859fea7967",
+        "type": "ui_text",
+        "z": "eb1389238c0e7990",
+        "g": "1780bd2e981ed998",
+        "group": "7de298c52610e8a5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "text semaine",
+        "label": "• 0 -> une semaine",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "5a206ba9ddc54d91",
+        "type": "debug",
+        "z": "eb1389238c0e7990",
+        "g": "3d99074c2153a53c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "07a0d543df56230a",
+        "type": "mqtt-broker",
+        "name": "UTBM",
+        "broker": "mqtt.ci-ciad.utbm.fr",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8f20765007329c42",
+        "type": "Stackhero-MySQL-Server",
+        "name": "mesures_air",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "tls": false,
+        "database": "mesures_air"
+    },
+    {
+        "id": "54a72964173d40f8",
+        "type": "ui_group",
+        "name": "Fonction",
+        "tab": "1e46d499680fa5fb",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b2127731457708e",
+        "type": "ui_group",
+        "name": "Paramètres",
+        "tab": "1e46d499680fa5fb",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d701069e850f8f69",
+        "type": "remote-config",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "kj1doiosbrlxkh68le25dpjg8asv13w4din21guo2tm7hutvvpd9txcw3lavuyw7",
+        "server": "nodered04.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "f1b6c915.8fbc78",
+        "type": "ui_group",
+        "name": "Données Générales",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 1,
+        "disp": false,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8faf5a503beb89fd",
+        "type": "ui_group",
+        "name": "Température",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "123ba330da709477",
+        "type": "ui_group",
+        "name": "Pression",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e585c78da5ce33e8",
+        "type": "ui_group",
+        "name": "Altitude",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "255cc99aea28b759",
+        "type": "ui_group",
+        "name": "Humidité",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 5,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a4d250c64e06d3a",
+        "type": "ui_group",
+        "name": "CO2",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 6,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f824ab3390190580",
+        "type": "ui_group",
+        "name": "TVOC",
+        "tab": "6ba0ac1f.a748a4",
+        "order": 7,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f8c28c7583a15ba1",
+        "type": "ui_group",
+        "name": "Gestion TVOC",
+        "tab": "b612d0279f3cdd03",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b371089d272effa6",
+        "type": "ui_group",
+        "name": "Gestion Température",
+        "tab": "b612d0279f3cdd03",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f0e664e12a23b3e4",
+        "type": "ui_group",
+        "name": "Gestion Pression",
+        "tab": "b612d0279f3cdd03",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "53df3c8355c85317",
+        "type": "ui_group",
+        "name": "Gestion Altitude",
+        "tab": "b612d0279f3cdd03",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "070852b39e2c1045",
+        "type": "ui_group",
+        "name": "Gestion Humidité",
+        "tab": "b612d0279f3cdd03",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "345f7d50cdd6deec",
+        "type": "ui_group",
+        "name": "Gestion CO2",
+        "tab": "b612d0279f3cdd03",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7de298c52610e8a5",
+        "type": "ui_group",
+        "name": "Légende sliders",
+        "tab": "b612d0279f3cdd03",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1e46d499680fa5fb",
+        "type": "ui_tab",
+        "name": "Bouton",
+        "icon": "touch_app",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6ba0ac1f.a748a4",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b612d0279f3cdd03",
+        "type": "ui_tab",
+        "name": "Variation des données en fonction du temps",
+        "icon": "access_time",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]
